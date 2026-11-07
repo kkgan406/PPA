@@ -1,0 +1,4 @@
+perturbation,observations,macro_auc,reference_macro_auc,error,status,origin,source_scores_sha256
+blur,75991,0.76656499874844997,0.76656499874844997,0,PASS,"historical raw-response cache replay, no extraction rerun of full target",fe378c2d3e95bbf39bb95c20c5ca8b2a480f6b89375bd7a214b3affc30b5d2c1
+jpeg,75991,0.76653922217838366,0.76653922217838366,0,PASS,"historical raw-response cache replay, no extraction rerun of full target",fe378c2d3e95bbf39bb95c20c5ca8b2a480f6b89375bd7a214b3affc30b5d2c1
+noise,75991,0.69270675290727224,0.69270675290727224,0,PASS,"historical raw-response cache replay, no extraction rerun of full target",fe378c2d3e95bbf39bb95c20c5ca8b2a480f6b89375bd7a214b3affc30b5d2c1

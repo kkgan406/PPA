@@ -1,0 +1,333 @@
+{
+  "status": "PASS",
+  "formal_model_fitting_performed": false,
+  "host_training_performed": false,
+  "frozen_replay": [
+    {
+      "host": "CLIP",
+      "route": "feature",
+      "dataset": "genimage",
+      "n": 24,
+      "max_abs_error": 0.0,
+      "threshold": 0.0,
+      "alpha": 0.0,
+      "scope": "frozen real cache B; original heads loaded, no fit",
+      "status": "PASS"
+    },
+    {
+      "host": "CLIP",
+      "route": "score",
+      "dataset": "genimage",
+      "n": 24,
+      "max_abs_error": 0.0,
+      "threshold": 0.0,
+      "alpha": 0.0,
+      "scope": "frozen real cache B; original heads loaded, no fit",
+      "status": "PASS"
+    },
+    {
+      "host": "CLIP",
+      "route": "feature",
+      "dataset": "commgen15",
+      "n": 60,
+      "max_abs_error": 0.0,
+      "threshold": 0.0,
+      "alpha": 0.0,
+      "scope": "frozen real cache B; original heads loaded, no fit",
+      "status": "PASS"
+    },
+    {
+      "host": "CLIP",
+      "route": "score",
+      "dataset": "commgen15",
+      "n": 60,
+      "max_abs_error": 0.0,
+      "threshold": 0.0,
+      "alpha": 0.0,
+      "scope": "frozen real cache B; original heads loaded, no fit",
+      "status": "PASS"
+    },
+    {
+      "host": "DINOv2",
+      "route": "feature",
+      "dataset": "genimage",
+      "n": 24,
+      "max_abs_error": 0.0,
+      "threshold": 0.0,
+      "alpha": 0.0,
+      "scope": "frozen real cache B; original heads loaded, no fit",
+      "status": "PASS"
+    },
+    {
+      "host": "DINOv2",
+      "route": "score",
+      "dataset": "genimage",
+      "n": 24,
+      "max_abs_error": 0.0,
+      "threshold": 0.0,
+      "alpha": 0.0,
+      "scope": "frozen real cache B; original heads loaded, no fit",
+      "status": "PASS"
+    },
+    {
+      "host": "DINOv2",
+      "route": "feature",
+      "dataset": "commgen15",
+      "n": 60,
+      "max_abs_error": 0.0,
+      "threshold": 0.0,
+      "alpha": 0.0,
+      "scope": "frozen real cache B; original heads loaded, no fit",
+      "status": "PASS"
+    },
+    {
+      "host": "DINOv2",
+      "route": "score",
+      "dataset": "commgen15",
+      "n": 60,
+      "max_abs_error": 0.0,
+      "threshold": 0.0,
+      "alpha": 0.0,
+      "scope": "frozen real cache B; original heads loaded, no fit",
+      "status": "PASS"
+    },
+    {
+      "host": "CO-SPY",
+      "route": "feature",
+      "dataset": "genimage",
+      "n": 24,
+      "max_abs_error": 0.0,
+      "threshold": 0.0,
+      "alpha": 0.0,
+      "scope": "frozen real cache B; original heads loaded, no fit",
+      "status": "PASS"
+    },
+    {
+      "host": "CO-SPY",
+      "route": "score",
+      "dataset": "genimage",
+      "n": 24,
+      "max_abs_error": 0.0,
+      "threshold": 0.0,
+      "alpha": 0.0,
+      "scope": "frozen real cache B; original heads loaded, no fit",
+      "status": "PASS"
+    },
+    {
+      "host": "CO-SPY",
+      "route": "feature",
+      "dataset": "commgen15",
+      "n": 60,
+      "max_abs_error": 0.0,
+      "threshold": 0.0,
+      "alpha": 0.0,
+      "scope": "frozen real cache B; original heads loaded, no fit",
+      "status": "PASS"
+    },
+    {
+      "host": "CO-SPY",
+      "route": "score",
+      "dataset": "commgen15",
+      "n": 60,
+      "max_abs_error": 0.0,
+      "threshold": 0.0,
+      "alpha": 0.0,
+      "scope": "frozen real cache B; original heads loaded, no fit",
+      "status": "PASS"
+    },
+    {
+      "host": "Effort",
+      "route": "feature",
+      "dataset": "genimage",
+      "n": 24,
+      "max_abs_error": 0.0,
+      "threshold": 0.0,
+      "alpha": 0.0,
+      "scope": "frozen real cache B; original heads loaded, no fit",
+      "status": "PASS"
+    },
+    {
+      "host": "Effort",
+      "route": "score",
+      "dataset": "genimage",
+      "n": 24,
+      "max_abs_error": 0.0,
+      "threshold": 2.008856108429543,
+      "alpha": 0.25,
+      "scope": "frozen real cache B; original heads loaded, no fit",
+      "status": "PASS"
+    },
+    {
+      "host": "Effort",
+      "route": "feature",
+      "dataset": "commgen15",
+      "n": 60,
+      "max_abs_error": 0.0,
+      "threshold": 0.0,
+      "alpha": 0.0,
+      "scope": "frozen real cache B; original heads loaded, no fit",
+      "status": "PASS"
+    },
+    {
+      "host": "Effort",
+      "route": "score",
+      "dataset": "commgen15",
+      "n": 60,
+      "max_abs_error": 0.0,
+      "threshold": 2.008856108429543,
+      "alpha": 0.25,
+      "scope": "frozen real cache B; original heads loaded, no fit",
+      "status": "PASS"
+    }
+  ],
+  "ppr_only_frozen_replay": [
+    {
+      "dataset": "genimage",
+      "n": 24,
+      "max_abs_error": 0.0,
+      "status": "PASS",
+      "scope": "frozen standalone PPR, not new fitting or full benchmark"
+    },
+    {
+      "dataset": "commgen15",
+      "n": 60,
+      "max_abs_error": 0.0,
+      "status": "PASS",
+      "scope": "frozen standalone PPR, not new fitting or full benchmark"
+    }
+  ],
+  "original_source_scalers": [
+    {
+      "host": "CLIP",
+      "head": "CLIP-L14_MSM-Feature",
+      "train_scaler_n": 12398,
+      "C": 1.0,
+      "sha256": "2815809235e1d66b1bbe406349e9de8964574e86b336c489644fbaf991813ec5"
+    },
+    {
+      "host": "CLIP",
+      "head": "CLIP-L14_MSM-Score",
+      "train_scaler_n": 12398,
+      "C": 0.01,
+      "sha256": "d8cb04eaff379f95a8b3d3a3ccae9741d3533fea35487c50c72385c0ba7a048b"
+    },
+    {
+      "host": "DINOv2",
+      "head": "DINOv2_MSM-Feature",
+      "train_scaler_n": 12398,
+      "C": 0.01,
+      "sha256": "d76869745eaeb9ebd94115540bfdc0f531ce0b00ca4b4e6867f98e50434d08c2"
+    },
+    {
+      "host": "DINOv2",
+      "head": "DINOv2_MSM-Score",
+      "train_scaler_n": 12398,
+      "C": 0.1,
+      "sha256": "2d2a267da7de22c88d80fc816c15f2a1f4c68af503445537056f95a349db59d6"
+    },
+    {
+      "host": "CO-SPY",
+      "head": "C3",
+      "train_scaler_n": 12398,
+      "C": 0.01,
+      "sha256": "ef5ef9ad4eef36aca16654686b5ec53b0b3a78c379eb18cf7dbd0979d8923ebd"
+    },
+    {
+      "host": "CO-SPY",
+      "head": "C2",
+      "train_scaler_n": 12398,
+      "C": 1.0,
+      "sha256": "978ab4f85223ca548fb3391567969011bc8267c6b6b617ed3714e7bb22a60a11"
+    },
+    {
+      "host": "Effort",
+      "head": "E1",
+      "train_scaler_n": 12398,
+      "C": 0.01,
+      "sha256": "65b89f2f2f0cd403df38e30e706f6d71002a583843aacd1f02b71e92e3d7a6bb"
+    },
+    {
+      "host": "Effort",
+      "head": "E3",
+      "train_scaler_n": 12398,
+      "C": 0.01,
+      "sha256": "a486b19ba01eb916d4a6a20c675e6bb18277d3e4db1cc76e34aed5ff870d5a58"
+    }
+  ],
+  "fold_scaler_fit_rows": [
+    9918,
+    9919
+  ],
+  "prior_real_subset_cli_artifact_checks": [
+    {
+      "host": "CLIP",
+      "route": "feature",
+      "status": "PASS",
+      "scope": "prior real subset CLI artifacts rehashed/current code binding confirmed; no refit in Phase5",
+      "threshold_source": "fixed zero"
+    },
+    {
+      "host": "CLIP",
+      "route": "score",
+      "status": "PASS",
+      "scope": "prior real subset CLI artifacts rehashed/current code binding confirmed; no refit in Phase5",
+      "threshold_source": "fixed zero"
+    },
+    {
+      "host": "DINOv2",
+      "route": "feature",
+      "status": "PASS",
+      "scope": "prior real subset CLI artifacts rehashed/current code binding confirmed; no refit in Phase5",
+      "threshold_source": "fixed zero"
+    },
+    {
+      "host": "DINOv2",
+      "route": "score",
+      "status": "PASS",
+      "scope": "prior real subset CLI artifacts rehashed/current code binding confirmed; no refit in Phase5",
+      "threshold_source": "fixed zero"
+    },
+    {
+      "host": "CO-SPY",
+      "route": "feature",
+      "status": "PASS",
+      "scope": "prior real subset CLI artifacts rehashed/current code binding confirmed; no refit in Phase5",
+      "threshold_source": "fixed zero"
+    },
+    {
+      "host": "CO-SPY",
+      "route": "score",
+      "status": "PASS",
+      "scope": "prior real subset CLI artifacts rehashed/current code binding confirmed; no refit in Phase5",
+      "threshold_source": "fixed zero"
+    },
+    {
+      "host": "Effort",
+      "route": "feature",
+      "status": "PASS",
+      "scope": "prior real subset CLI artifacts rehashed/current code binding confirmed; no refit in Phase5",
+      "threshold_source": "fixed zero"
+    },
+    {
+      "host": "Effort",
+      "route": "score",
+      "status": "PASS",
+      "scope": "prior real subset CLI artifacts rehashed/current code binding confirmed; no refit in Phase5",
+      "threshold_source": "source VAL max BA"
+    }
+  ],
+  "motivation": {
+    "status": "PASS",
+    "real_n": 4,
+    "perturbations": [
+      "jpeg",
+      "blur",
+      "noise"
+    ],
+    "scope": "fresh training-free raw inference on four original real observations, not benchmark"
+  },
+  "effort_historical_alpha": 0.25,
+  "effort_historical_threshold": 2.008856108429543,
+  "cospy_native_ranking": "original saved FP32 native_probability; no sigmoid recomputation",
+  "scope": "cache frozen replay B; no new public raw Host verification"
+}

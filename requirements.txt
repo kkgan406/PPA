@@ -1,0 +1,12 @@
+# Exact versions used by the audited CPU environment and historical PPR protocol.
+torch==2.4.1
+torchvision==0.19.1
+lpips==0.1.4
+numpy==2.2.6
+scipy==1.15.3
+pandas==2.3.3
+scikit-learn==1.7.2
+Pillow==12.3.0
+matplotlib==3.10.9
+PyYAML==6.0.3
+joblib==1.5.3

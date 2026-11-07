@@ -1,0 +1,10 @@
+License decision pending
+
+TODO (repository owner): select and approve a license for the original PPA research
+code before public release. The research repository supplied for this cleanup had
+no project LICENSE. This file does not grant a new license or change third-party
+rights. Do not describe this candidate as an OSI-licensed release yet.
+
+Dependencies, external model implementations, weights, and datasets retain their
+own licenses and terms; see docs/licenses.md. None of their weights or source
+trees is bundled in this candidate.

@@ -1,0 +1,29 @@
+{
+  "status": "PASS",
+  "scope": "Public external-head inference on two real-image-bound cached features; B, not public raw A",
+  "n": 2,
+  "sample_ids": [
+    "765001c65f71c5a7c7095ccd",
+    "5d61fe4fc9bc2072879006fa"
+  ],
+  "checkpoint_state_strict": true,
+  "original_scaler_n": 12398,
+  "all_parameters_frozen": true,
+  "head_eval": true,
+  "ppr_dtype": "float32",
+  "host_dtype": "float32",
+  "prediction_max_abs_error": 4.76837158203125e-07,
+  "predictions": [
+    -4.816313743591309,
+    -3.1849308013916016
+  ],
+  "archived_predictions": [
+    -4.816313743591309,
+    -3.1849312782287598
+  ],
+  "training_performed": false,
+  "tolerance": {
+    "atol": 0.003,
+    "rtol": 0.003
+  }
+}

@@ -1,0 +1,97 @@
+{
+  "archive_git_unchanged": {
+    "PPR": true,
+    "AIDE": true,
+    "CLIMP": true,
+    "CO-SPY": true,
+    "C2P": true,
+    "Effort": true
+  },
+  "protected_research_files": {
+    "count": 342,
+    "changed": []
+  },
+  "candidate_changes": {
+    "modified_from_phase2": [
+      "README.md",
+      "configs/hosts.yaml",
+      "docs/aide-fusion-audit.md",
+      "docs/cache-format.md",
+      "docs/delivery.md",
+      "docs/host-reproducibility-matrix.md",
+      "docs/licenses.md",
+      "docs/phase2-release-audit.md",
+      "docs/release-blockers.md",
+      "docs/repository-audit.md",
+      "docs/verification.md"
+    ],
+    "missing_from_phase2": [],
+    "new_from_phase2": [
+      "configs/aide_a3.yaml",
+      "configs/manifest_release.yaml",
+      "docs/aide-release-decision.md",
+      "docs/evidence/phase3-a3-cache.json",
+      "docs/evidence/phase3-a3-raw-comparison.json",
+      "docs/evidence/phase3-final-checks.json",
+      "docs/evidence/phase3-manifest-readiness.json",
+      "docs/manifest-release-plan.md",
+      "docs/paper-code-consistency.md",
+      "docs/public-host-support.md",
+      "docs/release-readiness.md",
+      "ppa/aide.py",
+      "scripts/aide_feature.py",
+      "tests/test_aide_contract.py"
+    ]
+  },
+  "license_unchanged": true,
+  "candidate_safety": {
+    "publishable_files": 67,
+    "issues": [],
+    "broken_local_markdown_links": [],
+    "scan_limit": "Heuristic file scan, not exhaustive credential/legal clearance. Git-ignored local environments excluded."
+  },
+  "cli": {
+    "motivation.py": {
+      "exit_code": 0,
+      "documented_flags_found": true
+    },
+    "extract.py": {
+      "exit_code": 0,
+      "documented_flags_found": true
+    },
+    "ppr_only.py": {
+      "exit_code": 0,
+      "documented_flags_found": true
+    },
+    "main_results.py": {
+      "exit_code": 0,
+      "documented_flags_found": true
+    },
+    "aide_feature.py": {
+      "exit_code": 0,
+      "documented_flags_found": true
+    }
+  },
+  "new_interface_import_from_other_cwd": true,
+  "new_yaml_configs_parse": {
+    "aide_a3.yaml": true,
+    "manifest_release.yaml": true
+  },
+  "tests": {
+    "existing_25": true,
+    "new_3": true
+  },
+  "a3_cli_api_prediction_max_abs_error": 0.0,
+  "a3_cli_training_performed": false,
+  "a3_cli_raw_host_extraction": false,
+  "git": {
+    "branch": "release/ppa-open-source",
+    "staged_files": [],
+    "tracked_files": [],
+    "log_exit_code": 128,
+    "history": "unborn branch, no commits"
+  },
+  "prior_history_audit": "Phase2 scanned 186 research commits, 2183 blobs / 1732 textual blobs; no heuristic credential matches, 223 blobs contain absolute paths. Original archives remain outside candidate; no history rewrite.",
+  "ready_for_formal_release": false,
+  "status": "PASS_WITH_RELEASE_BLOCKERS"
+}

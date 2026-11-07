@@ -1,0 +1,138 @@
+{
+  "status": "LOCAL_DRAFT_VALIDATED_NOT_RELEASED",
+  "publication_ready": false,
+  "release_candidate": "portable-draft-v1",
+  "publication_requires": [
+    "author approval of exact split/version and ID mapping",
+    "dataset/manifest redistribution permission",
+    "final paper feature-cache lineage decision"
+  ],
+  "image_files_copied": 0,
+  "features_or_checkpoints_copied": 0,
+  "observations_changed": 0,
+  "manifest_records": [
+    {
+      "name": "source_train",
+      "file": "manifests/source_train.csv",
+      "rows": 12398,
+      "sha256": "ff76e203e77c4e918908de5dd82c3fa2b8ad8df48a0a3eeb0316899c00701e73",
+      "source_manifest": "manifests/stage_b2/source_full.csv",
+      "source_manifest_sha256": "c78f7d6233d3663f61d4f668f676273ec0b100dd8abdf0e4ede28d121df241a3",
+      "ordered_observation_binding_sha256": "ec4f26959dafeef99aa9890069e55960d8345bf5826ee91195b89935427d647c",
+      "dataset_version_kind": "archived file-byte snapshot; not an invented upstream official release version",
+      "upstream_dataset_version": null,
+      "original_ids_preserved": true,
+      "source_split_preserved": true,
+      "paths_relative": true
+    },
+    {
+      "name": "source_val",
+      "file": "manifests/source_val.csv",
+      "rows": 800,
+      "sha256": "6542b28244d9246363f0e2212de1ef13de796113205b1ca494d125981e471f5c",
+      "source_manifest": "results/p0_1/frozen_val_manifest.csv",
+      "source_manifest_sha256": "dea0661058db8a4dc9524b35648ec50ab530432333bf1f20413ee0376a57452f",
+      "ordered_observation_binding_sha256": "c3302619c4f91bbe2eee07166e7c8c73ab1299d8e199f008096bc620909b5ead",
+      "dataset_version_kind": "archived file-byte snapshot; not an invented upstream official release version",
+      "upstream_dataset_version": null,
+      "original_ids_preserved": true,
+      "source_split_preserved": true,
+      "paths_relative": true
+    },
+    {
+      "name": "genimage6",
+      "file": "manifests/genimage6.csv",
+      "rows": 75991,
+      "sha256": "b9c13cccd99b0aba23f2ec66f2deddb543602e42883d8320b9b29157112180fc",
+      "source_manifest": "results/p0_1/frozen_subset_manifest.csv",
+      "source_manifest_sha256": "f6d3802bc6b32631461d13ddfe14088b71ea282af106b0aa3e2ba99fe106d06e",
+      "ordered_observation_binding_sha256": "eecab90c27ba9e59301837704daef597256da19a2721f2a20f2229e88cab6442",
+      "dataset_version_kind": "archived file-byte snapshot; not an invented upstream official release version",
+      "upstream_dataset_version": null,
+      "original_ids_preserved": true,
+      "source_split_preserved": true,
+      "paths_relative": true
+    },
+    {
+      "name": "genimage_extra",
+      "file": "manifests/genimage_extra.csv",
+      "rows": 24000,
+      "sha256": "827f7ca9903fdf5ea5acbc5371ebb98d208f2a5d4ca85a4d832de7074afaad1a",
+      "source_manifest": "cache/unified_cross_host/extra/manifest.csv",
+      "source_manifest_sha256": "c6680481fb4ae94ef360566dd6daedd861d826c134d41b937c4cbefc0ccd7031",
+      "ordered_observation_binding_sha256": "c49bc25fad7059000ff773fcd7df9b2879edbe2566b2956c356dd355fb93c164",
+      "dataset_version_kind": "archived file-byte snapshot; not an invented upstream official release version",
+      "upstream_dataset_version": null,
+      "original_ids_preserved": true,
+      "source_split_preserved": true,
+      "paths_relative": true
+    },
+    {
+      "name": "commgen15",
+      "file": "manifests/commgen15.csv",
+      "rows": 66785,
+      "sha256": "304d1927afb091b6c29eec4d8456101870c7a2cf60b6c0ccd4b16e33824d7f2b",
+      "source_manifest": "manifests/stage_c/frozen_target_manifest.csv",
+      "source_manifest_sha256": "14c3efbe6d76ab6734df1fa1da9ae9dd95c9131c972f5af9d1ed581d17597a06",
+      "ordered_observation_binding_sha256": "2c445efc7c01c815544d7f6221c1009ff18273b8372e094f358b525ff0aa92dd",
+      "dataset_version_kind": "archived file-byte snapshot; not an invented upstream official release version",
+      "upstream_dataset_version": null,
+      "original_ids_preserved": true,
+      "source_split_preserved": true,
+      "paths_relative": true
+    },
+    {
+      "name": "genimage8",
+      "file": "manifests/genimage8.csv",
+      "rows": 99991,
+      "sha256": "70fda820ac94eee0a2a0c433c0b63c769392ec7ea56225713d60deac7a3555c4",
+      "parts": [
+        "genimage6",
+        "genimage_extra"
+      ],
+      "ordered_observation_binding_sha256": "f9594ae8bde663d58295ed7ef31f86e9dd76f2a0b2b5715660fb75b14e7c11c9",
+      "upstream_dataset_version": null,
+      "original_ids_preserved": true,
+      "source_split_preserved": true,
+      "paths_relative": true
+    },
+    {
+      "name": "motivation",
+      "file": "manifests/motivation.csv",
+      "rows": 75991,
+      "sha256": "b9c13cccd99b0aba23f2ec66f2deddb543602e42883d8320b9b29157112180fc",
+      "parts": [
+        "genimage6"
+      ],
+      "ordered_observation_binding_sha256": "eecab90c27ba9e59301837704daef597256da19a2721f2a20f2229e88cab6442",
+      "upstream_dataset_version": null,
+      "original_ids_preserved": true,
+      "source_split_preserved": true,
+      "paths_relative": true
+    },
+    {
+      "name": "experiment",
+      "file": "manifests/experiment.csv",
+      "rows": 179974,
+      "sha256": "75e25c5807b00f3966994ab7b940afad6b37dc8d79d3b2a451f3799eeb723d43",
+      "parts": [
+        "source_train",
+        "source_val",
+        "genimage6",
+        "genimage_extra",
+        "commgen15"
+      ],
+      "ordered_observation_binding_sha256": "c858b01c0cd99e4bd20e0f75de7f24740302a1039d6049e5cc0a307b17b805aa",
+      "upstream_dataset_version": null,
+      "original_ids_preserved": true,
+      "source_split_preserved": true,
+      "paths_relative": true
+    }
+  ],
+  "checksum_scheme": "SHA256 of exact UTF-8 CSV bytes; ordered binding SHA256 canonical JSON [ID,source_split,generator,label,content SHA256]",
+  "notes": [
+    "Preserved extension IDs, never derived from new path",
+    "upstream_dataset_version=null is an explicit unresolved value; dataset_version binds the original frozen manifest bytes",
+    "Only local private CSV drafts created; public candidate receives schema/catalog, not full manifests"
+  ]
+}

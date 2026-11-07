@@ -1,0 +1,9 @@
+{
+  "status": "PASS",
+  "metric_records": 112,
+  "markdown_numeric_cells_verified": 216,
+  "F_model": "A3 learned projection + MLP",
+  "S_model": "A2 TRAIN-standardized additive score",
+  "paper_manuscript_status": "No manuscript supplied; correspondence verified against archived formal tables only",
+  "source_config_sha256": "d1f55baa8aebaf091791611e254fe8c9767b4eae12aab821f638a3307cde2dbc"
+}

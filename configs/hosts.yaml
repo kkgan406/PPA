@@ -1,0 +1,34 @@
+# Four-host public scope; original frozen outputs/protocols unchanged.
+CLIP:
+  architecture: OpenAI CLIP ViT-L/14, projected image_embeds
+  dimension: 768
+  normalization: L2
+  score_protocol: oof_lr
+  seed: 42
+  revision: 32bd64288804d66eefd0ccbe215aa642df71cc41
+  native_head: reuse frozen historical source-only LR; historically VAL AUC/AP/smaller
+    C
+  feature_status: cache_verified
+DINOv2:
+  architecture: DINOv2 ViT-B/14 x_norm_clstoken
+  dimension: 768
+  normalization: no additional L2
+  score_protocol: oof_lr
+  feature_status: cache_verified
+CO-SPY:
+  architecture: official SD-v1_4 semantic fc input + artifact fc input
+  dimension: 1664
+  normalization: official branch representations; no additional normalization
+  score_protocol: oof_lr
+  feature_status: cache_verified
+Effort:
+  architecture: official Effort CLIP-L14, 1024D feature, two-logit fake-minus-real
+    margin
+  dimension: 1024
+  normalization: official feat, no additional L2
+  score_protocol: effort
+  inference_dtype: float32
+  validation_dtype: float64
+  feature_status: cache_verified
+  fidelity: strict serialization fails on 288 auxiliary parameters; historical forward-completeness/demo
+    gates passed. Raw adapter not redistributed.

@@ -1,0 +1,95 @@
+{
+  "status": "PASS",
+  "splits": {
+    "source_train": {
+      "n": 12398,
+      "real": 6199,
+      "fake": 6199,
+      "unique_sha256": 12398,
+      "duplicate_content_observations": 0,
+      "manifest": "manifests/stage_b2/source_full.csv",
+      "manifest_sha256": "c78f7d6233d3663f61d4f668f676273ec0b100dd8abdf0e4ede28d121df241a3",
+      "sample_id_sha256": "563a76602558d03e8ff8b3727a008f3ca3fd9a34048c6a7729e8533e7c7501c3"
+    },
+    "source_val": {
+      "n": 800,
+      "real": 400,
+      "fake": 400,
+      "unique_sha256": 800,
+      "duplicate_content_observations": 0,
+      "manifest": "results/p0_1/frozen_val_manifest.csv",
+      "manifest_sha256": "dea0661058db8a4dc9524b35648ec50ab530432333bf1f20413ee0376a57452f",
+      "sample_id_sha256": "57d6c6209746d19b9605d5f826ca39fc02f63684d369edf48d1e8e209a269c9d"
+    },
+    "genimage6": {
+      "n": 75991,
+      "real": 37993,
+      "fake": 37998,
+      "unique_sha256": 75967,
+      "duplicate_content_observations": 24,
+      "manifest": "results/p0_1/frozen_subset_manifest.csv",
+      "manifest_sha256": "f6d3802bc6b32631461d13ddfe14088b71ea282af106b0aa3e2ba99fe106d06e",
+      "sample_id_sha256": "51f1d1441e75020f8b5958e26911e1bcb1a5569ad72b3ac37eec9bd599575ddb"
+    },
+    "genimage_extra": {
+      "n": 24000,
+      "real": 12000,
+      "fake": 12000,
+      "unique_sha256": 24000,
+      "duplicate_content_observations": 0,
+      "manifest": "cache/unified_cross_host/extra/manifest.csv",
+      "manifest_sha256": "c6680481fb4ae94ef360566dd6daedd861d826c134d41b937c4cbefc0ccd7031",
+      "sample_id_sha256": "121d9c1801b539d33a9bc8e404abf3f8630b14084f73b90e251abafa61d51989"
+    },
+    "commgen15": {
+      "n": 66785,
+      "real": 33392,
+      "fake": 33393,
+      "unique_sha256": 64814,
+      "duplicate_content_observations": 1971,
+      "manifest": "manifests/stage_c/frozen_target_manifest.csv",
+      "manifest_sha256": "14c3efbe6d76ab6734df1fa1da9ae9dd95c9131c972f5af9d1ed581d17597a06",
+      "sample_id_sha256": "1c9094fcbd2f56c610a978a62841609695ba3a8f714224b0cad6c93291e0c5de"
+    },
+    "genimage8": {
+      "n": 99991,
+      "real": 49993,
+      "fake": 49998,
+      "unique_sha256": 99959,
+      "duplicate_content_observations": 32,
+      "manifest": "concatenation: genimage6 + genimage_extra",
+      "manifest_sha256": null,
+      "sample_id_sha256": "4a1519d8d29673b6639c083f9fa3da84f81dc001dbef60a32d2b4606bf352f6c"
+    },
+    "macro7_scope": {
+      "n": 87991,
+      "generators": 7,
+      "source_train_overlap": 0,
+      "source_val_overlap": 0
+    }
+  },
+  "id_generation_checks": {
+    "source_train": {
+      "matches": 12398,
+      "n": 12398
+    },
+    "source_val": {
+      "matches": 800,
+      "n": 800
+    },
+    "genimage6": {
+      "matches": 75991,
+      "n": 75991
+    },
+    "commgen15": {
+      "matches": 66785,
+      "n": 66785
+    },
+    "genimage_extra": {
+      "matches": 24000,
+      "n": 24000
+    }
+  },
+  "content_hash_scope": "Manifest full SHA256 + every raw-probe image bytes rehashed; not every target image byte re-read this round",
+  "source_train_val_overlap": 0
+}

@@ -1,0 +1,236 @@
+{
+  "status": "PASS",
+  "rows": [
+    {
+      "split": "train",
+      "sample_id": "000b052933f5ca2182b34d0f",
+      "max_abs_error": 2.0265579223632812e-05,
+      "cache_allclose": true,
+      "pixel_and_math_parity": true
+    },
+    {
+      "split": "train",
+      "sample_id": "000b6cc2e4e9a877a521b517",
+      "max_abs_error": 4.1961669921875e-05,
+      "cache_allclose": true,
+      "pixel_and_math_parity": true
+    },
+    {
+      "split": "train",
+      "sample_id": "00195b6660023750de8abfc6",
+      "max_abs_error": 2.09808349609375e-05,
+      "cache_allclose": true,
+      "pixel_and_math_parity": true
+    },
+    {
+      "split": "train",
+      "sample_id": "00204ebc75cbb14a095749e3",
+      "max_abs_error": 2.7179718017578125e-05,
+      "cache_allclose": true,
+      "pixel_and_math_parity": true
+    },
+    {
+      "split": "train",
+      "sample_id": "0021bb03bd4e90e235c39c6f",
+      "max_abs_error": 2.6702880859375e-05,
+      "cache_allclose": true,
+      "pixel_and_math_parity": true
+    },
+    {
+      "split": "train",
+      "sample_id": "0022688537340f3882763cd8",
+      "max_abs_error": 3.218650817871094e-05,
+      "cache_allclose": true,
+      "pixel_and_math_parity": true
+    },
+    {
+      "split": "train",
+      "sample_id": "00377da168010f3df8cee1de",
+      "max_abs_error": 1.5974044799804688e-05,
+      "cache_allclose": true,
+      "pixel_and_math_parity": true
+    },
+    {
+      "split": "train",
+      "sample_id": "00483ec6c1883c8925b175a3",
+      "max_abs_error": 2.5987625122070312e-05,
+      "cache_allclose": true,
+      "pixel_and_math_parity": true
+    },
+    {
+      "split": "train",
+      "sample_id": "0049c76049a953c8f1a45d8e",
+      "max_abs_error": 3.0040740966796875e-05,
+      "cache_allclose": true,
+      "pixel_and_math_parity": true
+    },
+    {
+      "split": "train",
+      "sample_id": "0050a9b486a2e94097d4c7dc",
+      "max_abs_error": 3.62396240234375e-05,
+      "cache_allclose": true,
+      "pixel_and_math_parity": true
+    },
+    {
+      "split": "train",
+      "sample_id": "0001f89e9a3dd8ed15cfc01f",
+      "max_abs_error": 4.2438507080078125e-05,
+      "cache_allclose": true,
+      "pixel_and_math_parity": true
+    },
+    {
+      "split": "train",
+      "sample_id": "0002dc4917ca047bda7df8fe",
+      "max_abs_error": 4.9591064453125e-05,
+      "cache_allclose": true,
+      "pixel_and_math_parity": true
+    },
+    {
+      "split": "train",
+      "sample_id": "00056bea632d87079c73cd21",
+      "max_abs_error": 2.8133392333984375e-05,
+      "cache_allclose": true,
+      "pixel_and_math_parity": true
+    },
+    {
+      "split": "train",
+      "sample_id": "0022a3c0112871dcd7d597d0",
+      "max_abs_error": 3.528594970703125e-05,
+      "cache_allclose": true,
+      "pixel_and_math_parity": true
+    },
+    {
+      "split": "train",
+      "sample_id": "00236f4b87f54cf1657bdc30",
+      "max_abs_error": 2.6702880859375e-05,
+      "cache_allclose": true,
+      "pixel_and_math_parity": true
+    },
+    {
+      "split": "train",
+      "sample_id": "002a1dd49a59214daff9ddc2",
+      "max_abs_error": 3.147125244140625e-05,
+      "cache_allclose": true,
+      "pixel_and_math_parity": true
+    },
+    {
+      "split": "train",
+      "sample_id": "003d039e5d71827e9223c0f7",
+      "max_abs_error": 4.9591064453125e-05,
+      "cache_allclose": true,
+      "pixel_and_math_parity": true
+    },
+    {
+      "split": "train",
+      "sample_id": "004fdbf415f8780c4e4ed1b2",
+      "max_abs_error": 3.2901763916015625e-05,
+      "cache_allclose": true,
+      "pixel_and_math_parity": true
+    },
+    {
+      "split": "train",
+      "sample_id": "0059774592343adc568e1c86",
+      "max_abs_error": 3.0517578125e-05,
+      "cache_allclose": true,
+      "pixel_and_math_parity": true
+    },
+    {
+      "split": "train",
+      "sample_id": "005dc23dcc72169f879b1370",
+      "max_abs_error": 2.5272369384765625e-05,
+      "cache_allclose": true,
+      "pixel_and_math_parity": true
+    },
+    {
+      "split": "val",
+      "sample_id": "bc88f955a72e4894962755d6",
+      "max_abs_error": 1.7404556274414062e-05,
+      "cache_allclose": true,
+      "pixel_and_math_parity": true
+    },
+    {
+      "split": "val",
+      "sample_id": "b1f16c33569a2744d190de1a",
+      "max_abs_error": 1.4185905456542969e-05,
+      "cache_allclose": true,
+      "pixel_and_math_parity": true
+    },
+    {
+      "split": "val",
+      "sample_id": "39f638cb9998b5f2335e6813",
+      "max_abs_error": 3.504753112792969e-05,
+      "cache_allclose": true,
+      "pixel_and_math_parity": true
+    },
+    {
+      "split": "val",
+      "sample_id": "e8417facc380732cc5db9ebb",
+      "max_abs_error": 3.266334533691406e-05,
+      "cache_allclose": true,
+      "pixel_and_math_parity": true
+    },
+    {
+      "split": "genimage",
+      "sample_id": "765001c65f71c5a7c7095ccd",
+      "max_abs_error": 2.384185791015625e-05,
+      "cache_allclose": true,
+      "pixel_and_math_parity": true
+    },
+    {
+      "split": "genimage",
+      "sample_id": "6e67d1ab35246d8f835dd343",
+      "max_abs_error": 1.6450881958007812e-05,
+      "cache_allclose": true,
+      "pixel_and_math_parity": true
+    },
+    {
+      "split": "genimage",
+      "sample_id": "5d61fe4fc9bc2072879006fa",
+      "max_abs_error": 2.4199485778808594e-05,
+      "cache_allclose": true,
+      "pixel_and_math_parity": true
+    },
+    {
+      "split": "genimage",
+      "sample_id": "1e650da31865f9d8eb52b67c",
+      "max_abs_error": 3.0279159545898438e-05,
+      "cache_allclose": true,
+      "pixel_and_math_parity": true
+    },
+    {
+      "split": "commgen15",
+      "sample_id": "87a770cc58fcd510eb275378",
+      "max_abs_error": 3.147125244140625e-05,
+      "cache_allclose": true,
+      "pixel_and_math_parity": true
+    },
+    {
+      "split": "commgen15",
+      "sample_id": "8433e89d430a96c5426212b1",
+      "max_abs_error": 3.075599670410156e-05,
+      "cache_allclose": true,
+      "pixel_and_math_parity": true
+    },
+    {
+      "split": "commgen15",
+      "sample_id": "07ab4901493d41a3e03331ad",
+      "max_abs_error": 2.4557113647460938e-05,
+      "cache_allclose": true,
+      "pixel_and_math_parity": true
+    },
+    {
+      "split": "commgen15",
+      "sample_id": "bb0b899ff014eb03902d7749",
+      "max_abs_error": 3.147125244140625e-05,
+      "cache_allclose": true,
+      "pixel_and_math_parity": true
+    }
+  ],
+  "cache_tolerance": {
+    "atol": 2e-05,
+    "rtol": 0.0002
+  },
+  "device": "CPU FP32",
+  "new_vs_original_pixels_and_math": "bitwise identical",
+  "historical_cache_comparison": "within disclosed tolerance, not bitwise claim"
+}

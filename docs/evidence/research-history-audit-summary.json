@@ -1,0 +1,13 @@
+{
+  "commits": 186,
+  "total_blobs": 2183,
+  "text_blobs_scanned": 1732,
+  "limitations": "Heuristic scan; no claim of exhaustive secret detection or legal clearance. No histories modified.",
+  "findings_by_category": {
+    "token_like": 0,
+    "private_key": 0,
+    "credential_assignment": 0,
+    "local_absolute_path": 223
+  },
+  "artifact_blob_versions": 219
+}

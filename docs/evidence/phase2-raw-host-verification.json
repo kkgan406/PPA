@@ -1,0 +1,322 @@
+[
+  {
+    "host": "CLIP",
+    "status": "PASS",
+    "scope": "two real archived GenImage6 observations, raw host + raw CPU PPR + frozen fusion inference; not full benchmark",
+    "raw_n": 2,
+    "sample_ids": [
+      "765001c65f71c5a7c7095ccd",
+      "5d61fe4fc9bc2072879006fa"
+    ],
+    "labels": [
+      0,
+      1
+    ],
+    "ppr_max_abs_error": 2.4199485778808594e-05,
+    "feature_max_abs_error": 3.948807716369629e-07,
+    "native_logit_max_abs_error": 6.023878057703769e-06,
+    "feature_dimension": 768,
+    "device": "Tesla V100S-PCIE-32GB",
+    "ppr_device": "CPU FP32",
+    "extra": {},
+    "routes": {
+      "feature": {
+        "finite": true,
+        "predictions": [
+          -31.232992611791403,
+          4.298596987572905
+        ],
+        "archive_score_max_abs_error": 4.264594762837248e-05
+      },
+      "score": {
+        "finite": true,
+        "predictions": [
+          -6.0702682978444775,
+          0.7501324341308149
+        ],
+        "archive_score_max_abs_error": 8.062940761943693e-06
+      }
+    },
+    "adapter_scope": "candidate FrozenHost",
+    "PPR_scope": "fresh raw CPU FP32; no target PPR cache used for predictions"
+  },
+  {
+    "host": "DINOv2",
+    "status": "PASS",
+    "scope": "two real archived GenImage6 observations, raw host + raw CPU PPR + frozen fusion inference; not full benchmark",
+    "raw_n": 2,
+    "sample_ids": [
+      "765001c65f71c5a7c7095ccd",
+      "5d61fe4fc9bc2072879006fa"
+    ],
+    "labels": [
+      0,
+      1
+    ],
+    "ppr_max_abs_error": 2.4199485778808594e-05,
+    "feature_max_abs_error": 1.6689300537109375e-05,
+    "native_logit_max_abs_error": 3.228759087647859e-06,
+    "feature_dimension": 768,
+    "device": "Tesla V100S-PCIE-32GB",
+    "ppr_device": "CPU FP32",
+    "extra": {},
+    "routes": {
+      "feature": {
+        "finite": true,
+        "predictions": [
+          -7.871762169027705,
+          -0.5846620331851904
+        ],
+        "archive_score_max_abs_error": 1.6584669253916218e-05
+      },
+      "score": {
+        "finite": true,
+        "predictions": [
+          -9.331792327978826,
+          -1.7440390955576808
+        ],
+        "archive_score_max_abs_error": 1.4689476088403097e-05
+      }
+    },
+    "adapter_scope": "research archive adapter; not a released raw extraction command",
+    "PPR_scope": "fresh raw CPU FP32; no target PPR cache used for predictions"
+  },
+  {
+    "host": "CLIMP",
+    "status": "PASS",
+    "scope": "two real archived GenImage6 observations, raw host + raw CPU PPR + frozen fusion inference; not full benchmark",
+    "raw_n": 2,
+    "sample_ids": [
+      "765001c65f71c5a7c7095ccd",
+      "5d61fe4fc9bc2072879006fa"
+    ],
+    "labels": [
+      0,
+      1
+    ],
+    "ppr_max_abs_error": 2.4199485778808594e-05,
+    "feature_max_abs_error": 4.842877388000488e-08,
+    "native_logit_max_abs_error": 1.1043478910011117e-05,
+    "feature_dimension": 768,
+    "device": "Tesla V100S-PCIE-32GB",
+    "ppr_device": "CPU FP32",
+    "extra": {},
+    "routes": {
+      "feature": {
+        "finite": true,
+        "predictions": [
+          -16.288492601590903,
+          3.8466981356575647
+        ],
+        "archive_score_max_abs_error": 4.4057200092595394e-05
+      },
+      "score": {
+        "finite": true,
+        "predictions": [
+          -6.635163940302668,
+          -0.19213000082901727
+        ],
+        "archive_score_max_abs_error": 5.049665962264527e-06
+      }
+    },
+    "adapter_scope": "candidate FrozenHost",
+    "PPR_scope": "fresh raw CPU FP32; no target PPR cache used for predictions"
+  },
+  {
+    "host": "CO-SPY",
+    "status": "PASS",
+    "scope": "two real archived GenImage6 observations, raw host + raw CPU PPR + frozen fusion inference; not full benchmark",
+    "raw_n": 2,
+    "sample_ids": [
+      "765001c65f71c5a7c7095ccd",
+      "5d61fe4fc9bc2072879006fa"
+    ],
+    "labels": [
+      0,
+      1
+    ],
+    "ppr_max_abs_error": 2.4199485778808594e-05,
+    "feature_max_abs_error": 1.704692840576172e-05,
+    "native_logit_max_abs_error": 2.384185791015625e-05,
+    "feature_dimension": 1664,
+    "device": "Tesla V100S-PCIE-32GB",
+    "ppr_device": "CPU FP32",
+    "extra": {},
+    "routes": {
+      "feature": {
+        "finite": true,
+        "predictions": [
+          -9.344378393949064,
+          2.9430650847530817
+        ],
+        "archive_score_max_abs_error": 4.069988201971242e-05
+      },
+      "score": {
+        "finite": true,
+        "predictions": [
+          -11.210896080416092,
+          3.148211982273831
+        ],
+        "archive_score_max_abs_error": 3.973196490569819e-05
+      }
+    },
+    "adapter_scope": "research archive adapter; not a released raw extraction command",
+    "PPR_scope": "fresh raw CPU FP32; no target PPR cache used for predictions"
+  },
+  {
+    "host": "C2P-CLIP",
+    "status": "PASS",
+    "scope": "two real archived GenImage6 observations, raw host + raw CPU PPR + frozen fusion inference; not full benchmark",
+    "raw_n": 2,
+    "sample_ids": [
+      "765001c65f71c5a7c7095ccd",
+      "5d61fe4fc9bc2072879006fa"
+    ],
+    "labels": [
+      0,
+      1
+    ],
+    "ppr_max_abs_error": 2.4199485778808594e-05,
+    "feature_max_abs_error": 3.0547380447387695e-07,
+    "native_logit_max_abs_error": 2.384185791015625e-07,
+    "feature_dimension": 768,
+    "device": "Tesla V100S-PCIE-32GB",
+    "ppr_device": "CPU FP32",
+    "extra": {},
+    "routes": {
+      "feature": {
+        "finite": true,
+        "predictions": [
+          -9.920480449966067,
+          7.9487702468815185
+        ],
+        "archive_score_max_abs_error": 1.523480190890325e-06
+      },
+      "score": {
+        "finite": true,
+        "predictions": [
+          -1.5822571516036987,
+          1.3673442602157593
+        ],
+        "archive_score_max_abs_error": 2.384185791015625e-07
+      }
+    },
+    "adapter_scope": "research archive adapter; not a released raw extraction command",
+    "PPR_scope": "fresh raw CPU FP32; no target PPR cache used for predictions"
+  },
+  {
+    "host": "AIDE",
+    "status": "PASS",
+    "scope": "two real archived GenImage6 observations, raw host + raw CPU PPR + frozen fusion inference; not full benchmark",
+    "raw_n": 2,
+    "sample_ids": [
+      "765001c65f71c5a7c7095ccd",
+      "5d61fe4fc9bc2072879006fa"
+    ],
+    "labels": [
+      0,
+      1
+    ],
+    "ppr_max_abs_error": 2.4199485778808594e-05,
+    "feature_max_abs_error": 2.384185791015625e-07,
+    "native_logit_max_abs_error": 4.76837158203125e-07,
+    "feature_dimension": 2304,
+    "device": "Tesla V100S-PCIE-32GB",
+    "ppr_device": "CPU FP32",
+    "extra": {
+      "A3_checkpoint_shapes": {
+        "response_proj.0.weight": [
+          256,
+          1536
+        ],
+        "response_proj.0.bias": [
+          256
+        ],
+        "response_proj.1.weight": [
+          256
+        ],
+        "response_proj.1.bias": [
+          256
+        ],
+        "fc.fc1.weight": [
+          1024,
+          2560
+        ],
+        "fc.fc1.bias": [
+          1024
+        ],
+        "fc.fc2.weight": [
+          2,
+          1024
+        ],
+        "fc.fc2.bias": [
+          2
+        ]
+      },
+      "A3_candidate_support": "blocked; archive-only inference, no LR substitution"
+    },
+    "routes": {
+      "score": {
+        "finite": true,
+        "predictions": [
+          -1.897692702479664,
+          -1.0106454469350958
+        ],
+        "archive_score_max_abs_error": 1.0210278555966568e-06
+      },
+      "historical_MLP_feature": {
+        "finite": true,
+        "predictions": [
+          -4.816312789916992,
+          -3.184932231903076
+        ],
+        "archive_score_max_abs_error": 9.5367431640625e-07
+      }
+    },
+    "adapter_scope": "research archive adapter; not a released raw extraction command",
+    "PPR_scope": "fresh raw CPU FP32; no target PPR cache used for predictions"
+  },
+  {
+    "host": "Effort",
+    "status": "PASS",
+    "scope": "two real archived GenImage6 observations, raw host + raw CPU PPR + frozen fusion inference; not full benchmark",
+    "raw_n": 2,
+    "sample_ids": [
+      "765001c65f71c5a7c7095ccd",
+      "5d61fe4fc9bc2072879006fa"
+    ],
+    "labels": [
+      0,
+      1
+    ],
+    "ppr_max_abs_error": 2.4199485778808594e-05,
+    "feature_max_abs_error": 1.8596649169921875e-05,
+    "native_logit_max_abs_error": 4.291534423828125e-06,
+    "feature_dimension": 1024,
+    "device": "Tesla V100S-PCIE-32GB",
+    "ppr_device": "CPU FP32",
+    "extra": {
+      "serialization": "strict FAIL: exactly 288 historical auxiliary-only missing tensors; all loaded tensors exact"
+    },
+    "routes": {
+      "feature": {
+        "finite": true,
+        "predictions": [
+          -12.542003939548392,
+          4.213184325574508
+        ],
+        "archive_score_max_abs_error": 5.966832475223782e-06
+      },
+      "score": {
+        "finite": true,
+        "predictions": [
+          -13.364550549925598,
+          4.69353247438598
+        ],
+        "archive_score_max_abs_error": 9.60333070310071e-06
+      }
+    },
+    "adapter_scope": "research archive adapter; not a released raw extraction command",
+    "PPR_scope": "fresh raw CPU FP32; no target PPR cache used for predictions"
+  }
+]

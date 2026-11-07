@@ -1,0 +1,5 @@
+-r requirements.txt
+transformers==4.44.2
+safetensors==0.8.0
+# DINOv2: install the pinned official repository's additional dependencies.
+# CO-SPY/Effort use frozen caches; no raw detector dependencies are bundled.

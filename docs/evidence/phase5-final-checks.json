@@ -1,0 +1,133 @@
+{
+  "archive_git_unchanged_in_phase5": {
+    "PPR": true,
+    "AIDE": true,
+    "CLIMP": true,
+    "CO-SPY": true,
+    "C2P": true,
+    "Effort": true
+  },
+  "archive_git_unchanged_since_four_host_audit": {
+    "PPR": true,
+    "AIDE": true,
+    "CLIMP": true,
+    "CO-SPY": true,
+    "C2P": true,
+    "Effort": true
+  },
+  "protected_research_files": {
+    "count": 342,
+    "changed": []
+  },
+  "unchanged_candidate_runtime_config_tests_and_license": {
+    ".gitignore": true,
+    "LICENSE": true,
+    "configs/hosts.yaml": true,
+    "configs/manifest_release.yaml": true,
+    "configs/ppr.yaml": true,
+    "ppa/__init__.py": true,
+    "ppa/data.py": true,
+    "ppa/experiment.py": true,
+    "ppa/fusion.py": true,
+    "ppa/hosts.py": true,
+    "ppa/metrics.py": true,
+    "ppa/preprocessing.py": true,
+    "ppa/response.py": true,
+    "pyproject.toml": true,
+    "requirements-dev.txt": true,
+    "requirements-hosts.txt": true,
+    "requirements.txt": true,
+    "scripts/extract.py": true,
+    "scripts/main_results.py": true,
+    "scripts/motivation.py": true,
+    "scripts/ppr_only.py": true,
+    "tests/test_ppa.py": true,
+    "tests/test_public_scope.py": true
+  },
+  "candidate_changes": {
+    "modified": [
+      "README.md",
+      "docs/licenses.md",
+      "docs/release-blockers.md",
+      "docs/release-readiness.md",
+      "docs/verification.md"
+    ],
+    "missing": [],
+    "new": [
+      "docs/evidence/phase5-final-checks.json",
+      "docs/evidence/phase5-freeze.json",
+      "docs/evidence/phase5-route-checks.json",
+      "docs/phase5-asset-readiness.md",
+      "docs/phase5-author-review.md",
+      "docs/phase5-paper-checklist.md"
+    ]
+  },
+  "candidate_safety": {
+    "publishable_files": 78,
+    "issues": [],
+    "broken_local_markdown_links": [],
+    "limitations": "Heuristic text/asset scan, not exhaustive legal/secret clearance; ignored private environments/assets excluded. Previous archive history audit remains historical evidence; archive refs/status preserved."
+  },
+  "cli": {
+    "motivation.py": {
+      "exit_code": 0,
+      "readme_flags_found": true
+    },
+    "extract.py": {
+      "exit_code": 0,
+      "readme_flags_found": true
+    },
+    "ppr_only.py": {
+      "exit_code": 0,
+      "readme_flags_found": true
+    },
+    "main_results.py": {
+      "exit_code": 0,
+      "readme_flags_found": true
+    }
+  },
+  "configured_hosts": [
+    "CLIP",
+    "DINOv2",
+    "CO-SPY",
+    "Effort"
+  ],
+  "readme_shell_syntax_exit_code": 0,
+  "readme_scope_sections": true,
+  "imports_from_other_cwd": true,
+  "tests": {
+    "passed": 40,
+    "warnings": 3,
+    "skips": 0,
+    "log_summary_matches": true
+  },
+  "route_verification": {
+    "status": "PASS",
+    "frozen_host_route_dataset_pairs": 16,
+    "ppr_only_dataset_pairs": 2,
+    "fresh_real_motivation": "PASS",
+    "prior_real_subset_cli_artifact_checks": 8,
+    "formal_model_fitting_performed": false
+  },
+  "manuscript_search": {
+    "final_author_approved_manuscript_found": false,
+    "research_docs_tex_count": 16,
+    "research_docs_latex_document_roots": 0,
+    "provided_attachment_tex_bib_pdf_count": 0,
+    "related_pasted_texts": "task descriptions, not approved final manuscript",
+    "search_scope": "candidate/research repository, research docs/table roots, shallow project/report paths and supplied attachments; external/unmounted author locations unknown"
+  },
+  "git": {
+    "branch": "release/ppa-open-source",
+    "staged_files": [],
+    "tracked_files": [],
+    "log_exit_code": 128,
+    "history": "unborn branch, no commits"
+  },
+  "decisions": {
+    "local_candidate_snapshot_commit": "TECHNICALLY_READY_REQUIRES_EXPLICIT_AUTHOR_AUTHORIZATION_NOT_EXECUTED",
+    "public_github_publication": "NOT_READY",
+    "complete_formal_paper_reproduction": "NOT_READY"
+  },
+  "status": "PASS_WITH_AUTHOR_AND_RELEASE_BLOCKERS"
+}

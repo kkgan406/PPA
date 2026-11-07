@@ -1,0 +1,19 @@
+{
+  "status": "PASS",
+  "source_train_n": 12398,
+  "source_val_n": 800,
+  "selected_C": 0.01,
+  "validation_metrics": {
+    "ap": 0.9912140348561189,
+    "auc": 0.99069375,
+    "acc": 0.9625,
+    "ba": 0.9624999999999999
+  },
+  "validation_metric_max_error": 0.0,
+  "validation_prediction_max_error": 0.0,
+  "scaler_mean_max_error": 0.0,
+  "coefficient_max_error": 0.0,
+  "source_model_sha256": "71a1897c0e92f0b63d15eb68f0c1edc8912edeaccbe9b2b528385c462027c990",
+  "threads": 2,
+  "note": "Candidate lightweight LR refitted on full original source TRAIN; exact validation metrics; no bitwise cross-BLAS claim; no host training; test smoke subset not full benchmark"
+}

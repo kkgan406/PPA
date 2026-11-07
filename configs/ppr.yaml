@@ -1,0 +1,19 @@
+# Audited fixed protocol. Mirrors ppa.preprocessing.PROTOCOL; no target tuning.
+seed: 42
+canonicalization: EXIF transpose -> RGB -> bicubic long512 -> isotropic min64 -> JPEG90
+jpeg90: {quality: 90, subsampling: 2, optimize: false, progressive: false}
+jpeg50: {quality: 50, subsampling: 2}
+blur: {kernel_size: 5, sigma: 1.0}
+noise: {sigma: 0.03, rng: sha256(seed:sample_id)-keyed CPU torch.Generator}
+backbone: frozen LPIPS AlexNet v0.1 raw post-ReLU activations
+feature_normalization: none after official LPIPS v0.1 input scaling
+layers: [4, 5]
+descriptor_order: [Mean_L4, Mean_L5, Std_L4, Std_L5, Max_L4, Max_L5]
+std_correction: 0
+dimension: 1536
+precision: float32
+global_response: equal mean of five layer means over C,H,W; not learned LPIPS distance
+motivation_orientation: {blur: -1, jpeg: -1, noise: 1}
+orientation_source: inherited source-VAL configs/direction_v1.json, fixed across canonicalizations
+C_grid: [0.01, 0.1, 1.0, 10.0]
+selection: source VAL AP -> ACC -> AUC -> smaller C

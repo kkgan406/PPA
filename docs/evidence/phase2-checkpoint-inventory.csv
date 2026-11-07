@@ -1,0 +1,25 @@
+host,role,filename,sha256,size_bytes,hash_verified,source
+CLIP,pretrained,pytorch_model.bin,f1a17cdbe0f36fec524f5cafb1c261ea3bbbc13e346e0f74fc9eb0460dedd0d3,1710671599,True,Hugging Face openai/clip-vit-large-patch14@32bd64288804d66eefd0ccbe215aa642df71cc41
+DINOv2,pretrained,dinov2_vitb14_pretrain.pth,0b8b82f85de91b424aded121c7e1dcc2b7bc6d0adeea651bf73a13307fad8c73,346378731,True,official DINOv2 ViT-B/14; archived config binds bytes; source snapshot commit unresolved
+CLIMP,pretrained,model.safetensors,6e4f79eab648bdddc41b6164c807160a5572cdb8d14a842cf925ee28b87d4398,5848392204,True,official CLIMP-Mamba1; official README links NimrodShabtay1986/CLIMP-Mamba1; original HF revision unresolved
+CLIP,native_head,L0.joblib,b25ac4eb27cceb4a6a6b38c4fe2f9e940e8d239253d58aaa225ad904b06d25d9,25969,True,"original source-only sealed classifier, not upstream off-the-shelf detector"
+CLIP,feature_head,CLIP-L14_MSM-Feature.joblib,2815809235e1d66b1bbe406349e9de8964574e86b336c489644fbaf991813ec5,75089,True,"original source-only sealed classifier, not upstream off-the-shelf detector"
+CLIP,score_head,CLIP-L14_MSM-Score.joblib,d8cb04eaff379f95a8b3d3a3ccae9741d3533fea35487c50c72385c0ba7a048b,1425,True,"original source-only sealed classifier, not upstream off-the-shelf detector"
+DINOv2,native_head,DINOv2_Native.joblib,8fc1535672ce6ed878dfbb1bdbb7c6a28a10940028c55fb376060d90498e0c07,25937,True,"original source-only sealed classifier, not upstream off-the-shelf detector"
+DINOv2,feature_head,DINOv2_MSM-Feature.joblib,d76869745eaeb9ebd94115540bfdc0f531ce0b00ca4b4e6867f98e50434d08c2,75089,True,"original source-only sealed classifier, not upstream off-the-shelf detector"
+DINOv2,score_head,DINOv2_MSM-Score.joblib,2d2a267da7de22c88d80fc816c15f2a1f4c68af503445537056f95a349db59d6,1425,True,"original source-only sealed classifier, not upstream off-the-shelf detector"
+CLIMP,native_head,CLIMP_Native.joblib,123b087255ba35bbb0a75c3dbe5f2d2359e3652a8a8d9071bf41c9c09b730bd2,25937,True,"original source-only sealed classifier, not upstream off-the-shelf detector"
+CLIMP,feature_head,CLIMP_MSM-Feature.joblib,20327f3fa4b9f1c3935e7310adc1341c91f6406c0f951af0bc9088e4d56dab1f,75089,True,"original source-only sealed classifier, not upstream off-the-shelf detector"
+CLIMP,score_head,CLIMP_MSM-Score.joblib,7dbbbc5fd4d16c3568da73a2b462871c09756b973814af6fed8674f95a0ce5e3,1425,True,"original source-only sealed classifier, not upstream off-the-shelf detector"
+CO-SPY,open_clip_model.safetensors,open_clip_model.safetensors,97faeafa0576c1ba4c92bae739ca06ef5f5d0c2db92f86a6086653d82a262043,3511918424,True,official SD-v1_4 semantic/artifact/fusion components or official SigLIP/VAE asset; original model audit
+CO-SPY,vae_config.json,vae_config.json,0e5966d4d52c8077648754ffd2c14ab5e0b26a4bdfa6af1d207c27550fa6d2af,551,True,official SD-v1_4 semantic/artifact/fusion components or official SigLIP/VAE asset; original model audit
+CO-SPY,semantic_weights.pth,semantic_weights.pth,f391482e6b8bc28dea1f475e593c11da2761b798fd335871ba137641888d2dd4,6186,True,official SD-v1_4 semantic/artifact/fusion components or official SigLIP/VAE asset; original model audit
+CO-SPY,artifact_weights.pth,artifact_weights.pth,3ec2b5aaf1d4d649e2413e43b68b389b2fda9840dc79f0c9aa0f4cea40e14f76,340566472,True,official SD-v1_4 semantic/artifact/fusion components or official SigLIP/VAE asset; original model audit
+CO-SPY,fusion_weights.pth,fusion_weights.pth,7af0160e79d35f8984dab41209aca10897e713f13f3b392a4d9bdce30a7cf6fb,1578,True,official SD-v1_4 semantic/artifact/fusion components or official SigLIP/VAE asset; original model audit
+C2P-CLIP,source_trained_detector,c0_best.pt,fb67699f4827677ff1be5910c668c220fcfc7dad1efbd7c5e76360953fc8fadd,1714721202,True,"original SD1.4 source run, epoch3; not generic upstream release"
+AIDE,A0,aide_sd14_baseline.pth,8c3bcae2bffb60311bbe15c6b2f64a8fdc8a7fd155a5b4e263cc0b8d8d78307f,3592155008,True,"original SD1.4 source seal; A0 epoch20, A1 LR, A3 epoch5 MLP"
+AIDE,A1,msm_only.joblib,81a31654fb655cc4eb301ef1889b902c222197dcbaa6b677387817c703f5ff7d,50513,True,"original SD1.4 source seal; A0 epoch20, A1 LR, A3 epoch5 MLP"
+AIDE,A3,aide_msm_feature.pth,c9f695262b8d8d5617c792be1246e6e1b2ad0b53f3ae82461173afcd3bdce519,12077484,True,"original SD1.4 source seal; A0 epoch20, A1 LR, A3 epoch5 MLP"
+AIDE,ConvNeXt_pretrained,open_clip_pytorch_model.bin,d571d992c3fc1d9d6f771ad4eb0ae4cb63745d3bd0cf3363ecde5ff249e2f155,4802571739,True,LAION CLIP-convnext_xxlarge-laion2B-s34B-b82K-augreg-soup@9f3e8ee3f383c672388d9178afe70af9e63ac9df; archived checkpoint audit
+AIDE,ResNet50_pretrained,resnet50-0676ba61.pth,0676ba61b6795bbe1773cffd859882e5e297624d384b6993f7c9e683e722fb8a,102530333,True,official torchvision resnet50-0676ba61.pth; preserve archived upstream loading behavior
+Effort,official_detector,effort_clip_L14_trainOn_sdv14.pth,7c32ceb4e66d303050e8fc5dc7543fa347693fb4ee6b5df4d6eaf9f6a92fb813,1213769519,True,"official Effort Google Drive checkpoint, original provenance.json; strict serialization caveat"

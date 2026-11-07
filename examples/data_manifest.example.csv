@@ -1,0 +1,9 @@
+sample_id,path,sha256,label,generator,split,dataset
+source-train-real,../data/source/train/real.png,TODO_SHA256,0,SD1.4,train,source
+source-train-fake,../data/source/train/fake.png,TODO_SHA256,1,SD1.4,train,source
+source-val-real,../data/source/val/real.png,TODO_SHA256,0,SD1.4,val,source
+source-val-fake,../data/source/val/fake.png,TODO_SHA256,1,SD1.4,val,source
+genimage-adm-real,../data/genimage/ADM/real.png,TODO_SHA256,0,ADM,test,genimage
+genimage-adm-fake,../data/genimage/ADM/fake.png,TODO_SHA256,1,ADM,test,genimage
+commgen15-flux-real,../data/commgen15/flux/real.png,TODO_SHA256,0,flux,test,commgen15
+commgen15-flux-fake,../data/commgen15/flux/fake.png,TODO_SHA256,1,flux,test,commgen15

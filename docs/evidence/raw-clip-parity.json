@@ -1,0 +1,10 @@
+{
+  "status": "PASS",
+  "n": 4,
+  "feature_dimension": 768,
+  "max_abs_error": 5.569308996200562e-07,
+  "atol": 0.0003,
+  "rtol": 0.0003,
+  "device": "CPU FP32"
+}
+

@@ -1,0 +1,328 @@
+{
+  "status": "PASS",
+  "frozen_replay": [
+    {
+      "host": "CLIP",
+      "route": "feature",
+      "dataset": "genimage",
+      "n": 24,
+      "max_abs_error": 0.0,
+      "threshold": 0.0,
+      "alpha": 0.0,
+      "scope": "frozen real cache B; original heads loaded, no fit",
+      "status": "PASS"
+    },
+    {
+      "host": "CLIP",
+      "route": "score",
+      "dataset": "genimage",
+      "n": 24,
+      "max_abs_error": 0.0,
+      "threshold": 0.0,
+      "alpha": 0.0,
+      "scope": "frozen real cache B; original heads loaded, no fit",
+      "status": "PASS"
+    },
+    {
+      "host": "CLIP",
+      "route": "feature",
+      "dataset": "commgen15",
+      "n": 60,
+      "max_abs_error": 0.0,
+      "threshold": 0.0,
+      "alpha": 0.0,
+      "scope": "frozen real cache B; original heads loaded, no fit",
+      "status": "PASS"
+    },
+    {
+      "host": "CLIP",
+      "route": "score",
+      "dataset": "commgen15",
+      "n": 60,
+      "max_abs_error": 0.0,
+      "threshold": 0.0,
+      "alpha": 0.0,
+      "scope": "frozen real cache B; original heads loaded, no fit",
+      "status": "PASS"
+    },
+    {
+      "host": "DINOv2",
+      "route": "feature",
+      "dataset": "genimage",
+      "n": 24,
+      "max_abs_error": 0.0,
+      "threshold": 0.0,
+      "alpha": 0.0,
+      "scope": "frozen real cache B; original heads loaded, no fit",
+      "status": "PASS"
+    },
+    {
+      "host": "DINOv2",
+      "route": "score",
+      "dataset": "genimage",
+      "n": 24,
+      "max_abs_error": 0.0,
+      "threshold": 0.0,
+      "alpha": 0.0,
+      "scope": "frozen real cache B; original heads loaded, no fit",
+      "status": "PASS"
+    },
+    {
+      "host": "DINOv2",
+      "route": "feature",
+      "dataset": "commgen15",
+      "n": 60,
+      "max_abs_error": 0.0,
+      "threshold": 0.0,
+      "alpha": 0.0,
+      "scope": "frozen real cache B; original heads loaded, no fit",
+      "status": "PASS"
+    },
+    {
+      "host": "DINOv2",
+      "route": "score",
+      "dataset": "commgen15",
+      "n": 60,
+      "max_abs_error": 0.0,
+      "threshold": 0.0,
+      "alpha": 0.0,
+      "scope": "frozen real cache B; original heads loaded, no fit",
+      "status": "PASS"
+    },
+    {
+      "host": "CO-SPY",
+      "route": "feature",
+      "dataset": "genimage",
+      "n": 24,
+      "max_abs_error": 0.0,
+      "threshold": 0.0,
+      "alpha": 0.0,
+      "scope": "frozen real cache B; original heads loaded, no fit",
+      "status": "PASS"
+    },
+    {
+      "host": "CO-SPY",
+      "route": "score",
+      "dataset": "genimage",
+      "n": 24,
+      "max_abs_error": 0.0,
+      "threshold": 0.0,
+      "alpha": 0.0,
+      "scope": "frozen real cache B; original heads loaded, no fit",
+      "status": "PASS"
+    },
+    {
+      "host": "CO-SPY",
+      "route": "feature",
+      "dataset": "commgen15",
+      "n": 60,
+      "max_abs_error": 0.0,
+      "threshold": 0.0,
+      "alpha": 0.0,
+      "scope": "frozen real cache B; original heads loaded, no fit",
+      "status": "PASS"
+    },
+    {
+      "host": "CO-SPY",
+      "route": "score",
+      "dataset": "commgen15",
+      "n": 60,
+      "max_abs_error": 0.0,
+      "threshold": 0.0,
+      "alpha": 0.0,
+      "scope": "frozen real cache B; original heads loaded, no fit",
+      "status": "PASS"
+    },
+    {
+      "host": "Effort",
+      "route": "feature",
+      "dataset": "genimage",
+      "n": 24,
+      "max_abs_error": 0.0,
+      "threshold": 0.0,
+      "alpha": 0.0,
+      "scope": "frozen real cache B; original heads loaded, no fit",
+      "status": "PASS"
+    },
+    {
+      "host": "Effort",
+      "route": "score",
+      "dataset": "genimage",
+      "n": 24,
+      "max_abs_error": 0.0,
+      "threshold": 2.008856108429543,
+      "alpha": 0.25,
+      "scope": "frozen real cache B; original heads loaded, no fit",
+      "status": "PASS"
+    },
+    {
+      "host": "Effort",
+      "route": "feature",
+      "dataset": "commgen15",
+      "n": 60,
+      "max_abs_error": 0.0,
+      "threshold": 0.0,
+      "alpha": 0.0,
+      "scope": "frozen real cache B; original heads loaded, no fit",
+      "status": "PASS"
+    },
+    {
+      "host": "Effort",
+      "route": "score",
+      "dataset": "commgen15",
+      "n": 60,
+      "max_abs_error": 0.0,
+      "threshold": 2.008856108429543,
+      "alpha": 0.25,
+      "scope": "frozen real cache B; original heads loaded, no fit",
+      "status": "PASS"
+    }
+  ],
+  "real_subset_cli": [
+    {
+      "host": "CLIP",
+      "route": "feature",
+      "status": "PASS",
+      "source_train_n": 20,
+      "source_val_n": 4,
+      "target_n": 8,
+      "datasets": [
+        "commgen15",
+        "genimage"
+      ],
+      "threshold": 0.0,
+      "threshold_source": "fixed zero",
+      "scope": "real cached subset CLI, disposable fusion fitting; not formal benchmark or host training"
+    },
+    {
+      "host": "CLIP",
+      "route": "score",
+      "status": "PASS",
+      "source_train_n": 20,
+      "source_val_n": 4,
+      "target_n": 8,
+      "datasets": [
+        "commgen15",
+        "genimage"
+      ],
+      "threshold": 0.0,
+      "threshold_source": "fixed zero",
+      "scope": "real cached subset CLI, disposable fusion fitting; not formal benchmark or host training"
+    },
+    {
+      "host": "DINOv2",
+      "route": "feature",
+      "status": "PASS",
+      "source_train_n": 20,
+      "source_val_n": 4,
+      "target_n": 8,
+      "datasets": [
+        "commgen15",
+        "genimage"
+      ],
+      "threshold": 0.0,
+      "threshold_source": "fixed zero",
+      "scope": "real cached subset CLI, disposable fusion fitting; not formal benchmark or host training"
+    },
+    {
+      "host": "DINOv2",
+      "route": "score",
+      "status": "PASS",
+      "source_train_n": 20,
+      "source_val_n": 4,
+      "target_n": 8,
+      "datasets": [
+        "commgen15",
+        "genimage"
+      ],
+      "threshold": 0.0,
+      "threshold_source": "fixed zero",
+      "scope": "real cached subset CLI, disposable fusion fitting; not formal benchmark or host training"
+    },
+    {
+      "host": "CO-SPY",
+      "route": "feature",
+      "status": "PASS",
+      "source_train_n": 20,
+      "source_val_n": 4,
+      "target_n": 8,
+      "datasets": [
+        "commgen15",
+        "genimage"
+      ],
+      "threshold": 0.0,
+      "threshold_source": "fixed zero",
+      "scope": "real cached subset CLI, disposable fusion fitting; not formal benchmark or host training"
+    },
+    {
+      "host": "CO-SPY",
+      "route": "score",
+      "status": "PASS",
+      "source_train_n": 20,
+      "source_val_n": 4,
+      "target_n": 8,
+      "datasets": [
+        "commgen15",
+        "genimage"
+      ],
+      "threshold": 0.0,
+      "threshold_source": "fixed zero",
+      "scope": "real cached subset CLI, disposable fusion fitting; not formal benchmark or host training"
+    },
+    {
+      "host": "Effort",
+      "route": "feature",
+      "status": "PASS",
+      "source_train_n": 20,
+      "source_val_n": 4,
+      "target_n": 8,
+      "datasets": [
+        "commgen15",
+        "genimage"
+      ],
+      "threshold": 0.0,
+      "threshold_source": "fixed zero",
+      "scope": "real cached subset CLI, disposable fusion fitting; not formal benchmark or host training"
+    },
+    {
+      "host": "Effort",
+      "route": "score",
+      "status": "PASS",
+      "source_train_n": 20,
+      "source_val_n": 4,
+      "target_n": 8,
+      "datasets": [
+        "commgen15",
+        "genimage"
+      ],
+      "threshold": 0.0,
+      "threshold_source": "source VAL max BA",
+      "scope": "real cached subset CLI, disposable fusion fitting; not formal benchmark or host training"
+    }
+  ],
+  "motivation": {
+    "perturbations": [
+      "jpeg",
+      "blur",
+      "noise"
+    ],
+    "real_n": 4,
+    "status": "PASS"
+  },
+  "ppr_only_subset_cli": "PASS",
+  "clip_raw": {
+    "status": "PASS",
+    "real_n": 4,
+    "scope": "limited candidate public raw inference; not complete benchmark",
+    "max_abs_errors": {
+      "ppr": 3.0279159545898438e-05,
+      "features": 5.569308996200562e-07,
+      "logits": 2.621163090932299e-05
+    }
+  },
+  "formal_models_refitted": false,
+  "hosts_trained": false,
+  "effort_historical_alpha": 0.25,
+  "effort_historical_threshold": 2.008856108429543,
+  "cospy_native": "Uses original saved FP32 probability arrays for AP/AUC, without recomputing sigmoid; canonical raw-logit >=0 ACC/BA"
+}

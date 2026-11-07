@@ -1,0 +1,29 @@
+{
+  "research_history": {
+    "commits": 186,
+    "blobs": 2183,
+    "text_blobs": 1732,
+    "matching_text_blob_counts": {
+      "credential_like": 0,
+      "credential_assignment": 0,
+      "local_absolute_path": 223
+    }
+  },
+  "limitations": "Heuristic textual scan only; no exhaustive secret or legal clearance. Relative template paths and dependency names are not treated as local absolute paths.",
+  "candidate": {
+    "files": 53,
+    "issues": [],
+    "commits": 0,
+    "scan_scope": "Explicit final publishable file list after phase2 documentation/evidence; no commit history"
+  },
+  "archive_git_unchanged": {
+    "PPR": true,
+    "AIDE": true,
+    "CLIMP": true,
+    "CO-SPY": true,
+    "C2P": true,
+    "Effort": true
+  },
+  "original_342_file_hashes_unchanged": true,
+  "status": "PASS_WITH_RELEASE_BLOCKERS"
+}

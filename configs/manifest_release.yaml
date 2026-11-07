@@ -1,0 +1,30 @@
+# Publication schema/policy only; no data, new IDs, or changed split membership.
+status: local-draft-validated-not-released
+schema_version: 1
+required_columns:
+  - sample_id
+  - path
+  - sha256
+  - label
+  - generator
+  - split
+  - source_split
+  - dataset
+  - dataset_version
+  - source_manifest_sha256
+original_image_ids: preserve-verbatim-never-regenerate
+original_split: preserve-exact-string-in-source_split
+public_split_mapping: {train: train, val: val, genimage: test, fresh_ood: test}
+label_mapping: {real: 0, fake: 1}
+path_policy: relative-to-manifest; no-image-copy; no-parent-traversal-after-initial-data-root
+checksum: SHA256-of-exact-UTF8-CSV-bytes
+ordered_binding_fields: [sample_id, source_split, generator, label, sha256]
+ordered_binding_encoding: canonical-JSON-records-sort_keys-true-separators-comma-colon
+known_dataset_version: archived-manifest-sha256
+upstream_dataset_version: null
+upstream_dataset_version_status: requires-author-confirmation
+publication_requires: [author-approval, applicable-external-permission, final-cache-lineage-binding]
+scopes:
+  historical_macro8: {observations: 99991, includes_sd14: true, train_overlap_observations: 11999}
+  macro7_unseen: {observations: 87991, excludes_sd14_domain: true}
+  content_disjoint: per-image-source-content-exclusion; single-class-AUC-unavailable

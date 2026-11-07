@@ -1,0 +1,80 @@
+{
+  "host": "AIDE",
+  "status": "PASS",
+  "scope": "Two real images: archive-only raw A0 plus fresh PPR plus candidate external A3. NOT public raw AIDE verification.",
+  "raw_n": 2,
+  "sample_ids": [
+    "765001c65f71c5a7c7095ccd",
+    "5d61fe4fc9bc2072879006fa"
+  ],
+  "labels": [
+    0,
+    1
+  ],
+  "ppr_max_abs_error": 2.4199485778808594e-05,
+  "feature_max_abs_error": 2.384185791015625e-07,
+  "native_logit_max_abs_error": 4.76837158203125e-07,
+  "feature_dimension": 2304,
+  "device": "Tesla V100S-PCIE-32GB",
+  "ppr_device": "CPU FP32",
+  "extra": {
+    "public_A3_interface": "exact external frozen head/scaler; raw A0 remains archive-only, not public raw A",
+    "A3_checkpoint_shapes": {
+      "response_proj.0.weight": [
+        256,
+        1536
+      ],
+      "response_proj.0.bias": [
+        256
+      ],
+      "response_proj.1.weight": [
+        256
+      ],
+      "response_proj.1.bias": [
+        256
+      ],
+      "fc.fc1.weight": [
+        1024,
+        2560
+      ],
+      "fc.fc1.bias": [
+        1024
+      ],
+      "fc.fc2.weight": [
+        2,
+        1024
+      ],
+      "fc.fc2.bias": [
+        2
+      ]
+    },
+    "A3_candidate_support": "conditional external-code cache B; raw A0 remains D; generic LR feature D"
+  },
+  "routes": {
+    "score": {
+      "finite": true,
+      "predictions": [
+        -1.897692702479664,
+        -1.0106454469350958
+      ],
+      "archive_score_max_abs_error": 1.0210278555966568e-06
+    },
+    "historical_MLP_feature": {
+      "finite": true,
+      "predictions": [
+        -4.816312789916992,
+        -3.184932231903076
+      ],
+      "archive_score_max_abs_error": 9.5367431640625e-07
+    },
+    "public_external_A3": {
+      "finite": true,
+      "predictions": [
+        -4.816312789916992,
+        -3.184932231903076
+      ],
+      "archive_score_max_abs_error": 9.5367431640625e-07,
+      "original_head_same_raw_inputs_max_abs_error": 0.0
+    }
+  }
+}

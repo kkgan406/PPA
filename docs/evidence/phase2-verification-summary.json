@@ -1,0 +1,39 @@
+{
+  "status": "PASS_WITH_RELEASE_BLOCKERS",
+  "pytest": "25 passed, 3 warnings, no skips",
+  "real_hosts": [
+    "CLIP",
+    "DINOv2",
+    "CLIMP",
+    "CO-SPY",
+    "C2P-CLIP",
+    "AIDE",
+    "Effort"
+  ],
+  "raw_samples_per_host": 2,
+  "candidate_raw_adapters_verified": [
+    "CLIP",
+    "CLIMP"
+  ],
+  "archive_only_raw_adapters": [
+    "DINOv2",
+    "CO-SPY",
+    "C2P-CLIP",
+    "AIDE",
+    "Effort"
+  ],
+  "AIDE_feature_candidate": "D; actual historical MLP verified only in archive",
+  "max_raw_fusion_score_error": 4.4057200092595394e-05,
+  "checkpoint_assets_verified": 24,
+  "DINOv2_source_bindings": 156,
+  "CLIMP_source_bindings": 16,
+  "AIDE_metrics_checked": 112,
+  "AIDE_printed_numeric_cells_checked": 216,
+  "readme_experiment_forms": "PASS with actual local assets, not literal placeholder paths",
+  "editable_offline_install": "PASS to isolated target",
+  "requirements": "satisfied in installed lock; offline dry-run",
+  "fresh_online_install": "NOT TESTED",
+  "markdown_local_links": "PASS",
+  "license_unchanged": true,
+  "source_code_changed": false
+}
